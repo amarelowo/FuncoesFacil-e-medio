@@ -109,6 +109,26 @@ Sensores de chão: retornam valores acima de 0.25 para mudança de "cor"(sinaliz
 4° se nao encontrar nada => gire em busca de algum objeto
 
 
+Dificil 3 -------------------------------------------------------------------------------------------------
+
+Demonstração de pi
+
+Nessa demonstração é utilizado o Método Monte Carlo, que se baseia em geração de numeros aleatórios 
+No caso para a demonstração de pi é feita uma proporção da area do quadrado(lado = 1) em relação a area do circulo(raio = 1)
+gerando varios pontos no plano cartesiano, de coordenadas entre (0, 0) e (1, 1).
+
+E a relação que se aproxima do valor de pi é area do circu pela area do quadrado multiplicados por 4
+pi = 4 * Acirculo / Aquadrado
+
+Onde a area do circulo tem uma proporção equivalente ao numero de pontos dentro do circulo (x^2 + y^2 <= 1),
+e a area do quadrado (todos os pontos aleatorios gerados)
+Deste modo, quanto mais pontos forem gerados, maior é a precisão adquirida para o numero pi.
+
+O codigo consiste em perguntar ao usuario a quantidade de numeros aleatorios a serem gerados, gerar essa quantidade de coordenadas
+e verificar se estão dentro do circulo, caso estejam o contador "pontos_cir"(pontos no circulo) é incrementado.
+
+por fim é feita a relação e apresentado na tela o valor.
+
 
 
 
