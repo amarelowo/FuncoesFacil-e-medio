@@ -1,7 +1,8 @@
-# Funcoes-Facil-e-medio
+# Documentação
 
 Oi oi pessoal da Cross, uma observaçãozinha aqui, as funções retornam valores ou strings, então tem que usar o print(),
-ou outra forma de apresenta-los
+ou outra forma de apresenta-los. As os desafios de nível "muito fácil" até "medio"(exceto o Medio 3, codigo do robo) 
+estão no mesmo arquivo("funcoes.py"). Só consegui fazer um dos desafios difíceis, o terceiro, da demonstração de pi. 
 
 Muito Fácil --------------------------------------------------------------
 
@@ -81,5 +82,30 @@ Obs: Nas comparações é utilizado o caracter "%" que significa resto da divisa
 "n"(numero fornecido) divido por 3 e comparando o restante da divisão com 0 (" == 0")
 
 Retornando a string atribuida a "r" conforme o resultado da cadeia de decisões
+
+Medio (codigo do robo sumo) -------------------------------------------------------------
+
+Os componente são os preestabelecidos pelo site
+
+A lógica se baseia em 4 senrores, 2 que monitoram o chão da arena e 2 que monitoram a distancia de qualquer objeto a sua frente
+
+Tem uma aceleração constante dos motores, -10 e +10, propulsionando o robo para frente
+
+Começa o loop com as variaveis "leftSpeed" e "rightSpeed" em 0, que mais adiante vão acelerar ou freiar o robo.
+
+Tudo ocorre atráves de uma cadeia de dicisões, que comparam os valores fornecidos pelos sensores com um valor já preestabelecido:
+Sensores de distancia: retornam um valor abaixo de 300 para objetos entre 0 e 300cm
+Sensores de chão: retornam valores acima de 0.25 para mudança de "cor"(sinalizando que emcontrou a borda)
+
+
+1°. se encontrar um objeto a direita => vire a direita
+2°. se encontrar um objeto a esqueda => vire a esquerda
+3°. se encontrar um objeto a frente => acelere
+       dentro dessa condição possui uma outra
+       se encontrar a borda => vire
+4° se nao encontrar nada => gire em busca de algum objeto
+
+
+
 
 
