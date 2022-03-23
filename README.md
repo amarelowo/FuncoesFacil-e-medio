@@ -1,7 +1,9 @@
 # Funcoes-Facil-e-medio
 
-Muito Fácil --------------------------------------------------------------
+Oi oi pessoal da Cross, uma observaçãozinha aqui, as funções retornam valores ou strings, então tem que usar o print(),
+ou outra forma de apresenta-los
 
+Muito Fácil --------------------------------------------------------------
 
 1) função radGraus()
 
@@ -12,6 +14,7 @@ abre a varaivel "graus" e atribui a ela a equação que converte radianos em gra
 
 Retorna a variavel "graus" com um arredendodamento de uma casa, através da função "round()"
 
+
 2) Converter()
 
 Recebe como paramentro um valor em horas
@@ -20,8 +23,8 @@ atribuindo a elas as devidas equações de conversão
 
 Por ultima coloca todas a uma lista e a retorna
 
-Fácil --------------------------------------------------------------
 
+Fácil --------------------------------------------------------------
 
 1) função repetir()
 
@@ -35,6 +38,7 @@ Dentro dessa laço "for" é utilizado a função "range()", para delimitar quant
 executado.
 
 Assim retornando a lista obtida
+
 
 2) função contaUm()
 
@@ -50,17 +54,32 @@ Comparando o valor da string pertencendo naquele indice com "1", se forem iguais
 retornando o valor do contador
 
 
+Medio --------------------------------------------------------------
+
+1) função distancia()
+
+Recebe como parametro duas listas ou tuplas, que são equivalentes aos pontos que se deseja descobrir a distancia
+Ex: a = (0, 0) e b = (1, 1), assim "distancia(a,b)" ou "distancia((0,0),(1,1))"
+
+Abre uma variavel "dist"(distancia) e atribui a ela a equação de distancia entre dois pontos
+
+Equação: sqrt( (X - Xo)^2 + (Y - Yo)^2 )
+
+Retornando o valor da distancia arredondado em duas casas decimais(com a função round())
 
 
+2) função cross_bots()
 
+Recebe como parametro um numero decimal inteiro 
 
+Abre uma cadeia de decisões que verifica se ele é multiplo de 3 (n%3 == 0 and n%5 != 0), atribui a string "Cross" à variavel "r"(retorno),
+caso seja multiplo de 5 (n%3 != 0 and n%5 == 0), atribui "Bots" à variavel "r",
+caso seja multiplo de ambos (n%3 == 0 and n%5 == 0), atribui "CrossBots"
+casa nao, atribui o proprio valor inserido no formato de string
 
+Obs: Nas comparações é utilizado o caracter "%" que significa resto da divisao pelo numero logo a frente, no caso "n%3 == 0"
+"n"(numero fornecido) divido por 3 e comparando o restante da divisão com 0 (" == 0")
 
-
-
-
-
-
-
+Retornando a string atribuida a "r" conforme o resultado da cadeia de decisões
 
 
