@@ -25,7 +25,7 @@ def repetir(item, n):
 def contaUm(n):
     cont = 0
     binario = str(bin(n))
-    for i in range(len(binario[2:])):
+    for i in range(len(binario)):
         if binario[i] == '1':
             cont = cont + 1
     return cont
