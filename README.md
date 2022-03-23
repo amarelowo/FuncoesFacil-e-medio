@@ -99,10 +99,13 @@ Sensores de chão: retornam valores acima de 0.25 para mudança de "cor"(sinaliz
 
 
 1°. se encontrar um objeto a direita => vire a direita
+
 2°. se encontrar um objeto a esqueda => vire a esquerda
+
 3°. se encontrar um objeto a frente => acelere
        dentro dessa condição possui uma outra
        se encontrar a borda => vire
+
 4° se nao encontrar nada => gire em busca de algum objeto
 
 
